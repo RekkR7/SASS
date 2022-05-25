@@ -1,0 +1,26 @@
+/*FOOTER SCSS*/
+footer {
+  background-color: #D9C5B2; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 100%; }
+    footer div h1 {
+      font-size: 20px;
+      font: bold; }
+    footer div a {
+      text-decoration: none;
+      color: #14110F; }
+    footer div label {
+      color: #14110F; }
+    footer div a:hover {
+      color: #F3F3F4; }
+    footer div .columna2 {
+      flex-direction: column;
+      margin: 20px;
+      padding-left: 100px; }
+    footer div .columna3 {
+      flex-direction: column;
+      margin: 20px;
+      padding-left: 100px; }

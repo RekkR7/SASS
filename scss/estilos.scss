@@ -1,0 +1,47 @@
+/*FOOTER SCSS*/
+$color-texto:#14110F;
+$color-hover: #F3F3F4;
+
+footer {
+    background-color: #D9C5B2;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        width: 100%;
+
+        h1 {
+            font-size: 20px;
+            font: bold;
+        }
+        a {
+            text-decoration: none;
+            color: $color-texto;
+        }
+        label {
+            color: $color-texto;
+        }
+
+        a:hover {
+            color: $color-hover;
+        }
+
+        .columna2 {
+            flex-direction: column;
+            margin: 20px;
+            padding-left: 100px;
+        }
+
+        .columna3 {
+            flex-direction: column;
+            margin: 20px;
+            padding-left: 100px;
+        }
+
+    }
+
+
+}
+
+
