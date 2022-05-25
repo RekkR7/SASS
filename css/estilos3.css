@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER - MENU - LOGO BLANCO Y NEGRO*/
+
+.navbar .navbar-expand-lg {
+    align-items: center;
+}
+
+.text {
+    color: red;
+}
+
+.navbar {
+    background-color: #F3F3F4;
+}
+
+form .btn:hover {
+    color: #14110F;
+    background-color: #D9C5B2;
+    border-color: #D9C5B2;
+}
+
+form .btn {
+    color: #14110F;
+    border-color: #D9C5B2;
+}
+
+/* END HEADER - MENU - LOGO BLANCO Y NEGRO */
+
+/* MAIN - BLANCO Y NEGRO */
+
+.main {
+    background-color: #F3F3F4;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    
+}
+
+.column img {
+    margin-top: 5px;
+    transition: all 300ms;
+}
+
+.column img:hover {
+    transform: scale(1.02);
+}
+
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
+/* END MAIN BLANCO Y NEGRO */
+

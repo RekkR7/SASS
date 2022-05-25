@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* HEADER - MENU - LOGO INDEX*/
+.navbar .navbar-expand-lg {
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #F3F3F4;
+}
+
+form .btn:hover {
+    color: #14110F;
+    background-color: #D9C5B2;
+    border-color: #D9C5B2;
+}
+
+form .btn {
+    color: #14110F;
+    border-color: #D9C5B2;
+    font-size: 16px;
+}
+
+.test {
+    height: 70vh;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #D9C5B2;
+    color: #14110F;
+    padding: 20px;
+    animation-name: footerAnimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    height: 209px;
+}
+
+@keyframes footerAnimation {
+    0% {
+        background-color: #D9C5B2;
+    }
+
+    25% {
+        background-color: #c5b29f;
+    }
+
+    50% {
+        background-color: #b3a08e;
+    }
+
+    75% {
+        background-color: #a79584;
+    }
+
+    100% {
+        background-color: #c5b29f;
+    }
+}
+
+.containerDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* COLUMNA2 */
+
+.columna2 h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row2 a {
+    text-decoration: none;
+    color: #14110F;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.row2 a:hover {
+    color: #F3F3F4;
+}
+
+/* COLUMNA3 */
+.containerDiv .columna3 {
+    max-width: 400px;
+}
+
+.columna3 h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row3 a {
+    text-decoration: none;
+    color: #14110F;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.row3 a:hover {
+    color: #F3F3F4;
+}
+
+.row3 label {
+    color: #14110F;
+    font-weight: 200;
+}
+
+
+
+@media (max-width: 410px) {
+    .containerDiv {
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    .test {
+        height: 50vh;
+    }
+
+    footer {
+        height: 330px;
+    }
+
+    .containerDiv {
+        flex-direction: column;
+    }
+
+    .columna3 {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .containerDiv {
+        margin: auto;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+
+/* END FOOTER */
