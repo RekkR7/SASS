@@ -1,46 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@import "variables";
+@import "footer";
+
+
+/* HEADER - MENU - LOGO INDEX*/
+
+body {
+
+    nav {
+        align-items: center;
+        background-color: #F3F3F4;
+    
+    }   
+}
+
+
 /*FOOTER SCSS*/
-$color-texto:#14110F;
-$color-hover: #F3F3F4;
+
 
 footer {
+    width: 100%;
     background-color: #D9C5B2;
-
-    div {
+    padding: 20px;
+    
+    div .containerDiv {
         display: flex;
-        flex-direction: row;
-        padding: 5px;
-        width: 100%;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
 
         h1 {
-            font-size: 20px;
-            font: bold;
+            font-size: $titulo-size;
+            font-weight: bold;
         }
         a {
             text-decoration: none;
             color: $color-texto;
+
+            &:hover{
+                color: $color-hover;
+            }
         }
         label {
             color: $color-texto;
-        }
 
-        a:hover {
-            color: $color-hover;
+            &:hover {
+                color: $color-hover;
+            }
         }
-
-        .columna2 {
+        
+    }
+    
+    @media (max-width: 425px) {
+        div .containerDiv {
+            margin-left: 65px;
+            margin-right: 0;
+        }
+        .containerDiv {
             flex-direction: column;
-            margin: 20px;
-            padding-left: 100px;
         }
-
         .columna3 {
-            flex-direction: column;
-            margin: 20px;
-            padding-left: 100px;
+            margin-top: 30px;
         }
-
     }
 
+    @media (max-width: 375px) {
+        div .containerDiv {
+            margin-left: 60px;
+            margin-right: 0;
+        }
+    
+        .containerDiv {
+            flex-direction: column;
+        }
+        .columna3 {
+            margin-bottom: 30px;
+        }
+    }
 
 }
 
