@@ -26,7 +26,7 @@ body footer {
     width: 70%;
     border-top: 1px solid #4e4641;
     margin: auto;
-    margin-top: 20px; }
+    margin-top: 40px; }
   body footer .copyright {
     padding: 20px;
     color: #4e4641;
@@ -67,7 +67,11 @@ body nav img {
     height: 60px; }
 
 body div .whatsapp {
-  width: 70px;
+  width: 50px;
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 10px; }
+
+@media (max-width: 375px) {
+  body .whatsapp {
+    margin-left: 10px; } }
