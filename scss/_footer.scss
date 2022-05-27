@@ -62,12 +62,14 @@ body {
             .linea {
                 width: 350px;
             }
+
+            
         }
 
         @media (max-width: 375px) {
             div .containerDiv {
                 margin-left: 60px;
-                margin-right: 0;
+                margin-right: 60px;
             }
 
             .containerDiv {
@@ -86,5 +88,17 @@ body {
 
     }
 
+    div {
 
+        h5 {
+            color: $color-h5;
+            text-transform: capitalize;
+            font-weight: bold;            
+        }
+
+        p {
+            color: $color-h5;
+            font-size: 18px;
+        }
+    }
 }

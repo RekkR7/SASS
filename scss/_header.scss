@@ -1,26 +1,25 @@
 body {
-    
+
     nav {
-        form .btn:hover {
-            background-color: #D9C5B2;
-            border-color: #D9C5B2;
+
+        li {
+            .nav-link{
+                    color: $color-texto;
+
+            }
         }
-    
-        .btn {
-            border-color: #D9C5B2;
-        }
-    
+
         img {
             transition: all 0.5s;
-    
-    
+
+
             &:hover {
                 width: 60px;
                 height: 60px;
             }
         }
-    
-    
+
+
     }
 
     div {
@@ -35,10 +34,9 @@ body {
     @media (max-width: 375px) {
         .whatsapp {
             margin-left: 10px;
-            }
         }
+    }
 
 
-}   
 
-
+}
