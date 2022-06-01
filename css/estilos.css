@@ -23,6 +23,31 @@ body div .whatsapp {
   body .whatsapp {
     margin-left: 10px; } }
 
+body div {
+  padding: 0px; }
+  body div .main {
+    background-color: #F3F3F4; }
+  body div img {
+    width: 100%; }
+  body div .imagen {
+    padding: 2px; }
+  body div .row {
+    display: flex;
+    flex-wrap: wrap; }
+  body div .column {
+    flex: 25%; }
+  body div .column img {
+    margin-top: 15px;
+    transition: all 300ms; }
+  body div .column img:hover {
+    transform: scale(1.02); }
+  @media (max-width: 800px) {
+    body div .column {
+      flex: 50%; } }
+  @media (max-width: 600px) {
+    body div .column {
+      flex: 100%; } }
+
 body footer {
   width: 100%;
   background-color: #D9C5B2;
